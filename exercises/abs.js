@@ -10,7 +10,15 @@
  */
 
 // Your code :
+function foo(n) {
+if (typeof n ==='string'){
+    n = parseInt(n);
+    if (n<09)
 
+    return n
+}
+
+console.log (foo(typeof abs ('-1'))
 //* Begin of tests
 const assert = require('assert')
 
